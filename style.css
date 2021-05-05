@@ -1,0 +1,245 @@
+body{
+    display: flex;
+    align-items: center;
+    background-color: #45BB3A;
+}
+
+html, body {height: 113%; /* si saco esta propiedad registro se rompe */
+    /* en 100% se corta la caja*/
+  }
+
+
+.form-container{
+    text-align: center;
+    /* width: 100%; es necesario poner 100%? */
+    max-width: 550px;
+    margin: auto;
+    /* padding? */
+    background-color: rgba(34, 34, 34, 0.877);
+    border: 1px solid #45BB3A;
+    border-radius: 10px;
+  }
+
+
+  .formlogin{
+    padding: 45px;  
+    padding-bottom: 15px;
+  }
+
+  .logoinicio{
+      margin-bottom: 20px;
+  }
+  .froglogo{
+      margin-bottom: 15px;
+      color: beige;
+      font-weight: 800;
+      text-shadow: -1px 1px 2px black; 
+  }
+
+  .user{
+      margin-bottom: 15px;
+  }
+
+  label{
+      color: #45BB3A;
+      font-weight: 800;
+      font-size: 18px;
+      padding: 8px;
+      text-shadow: -1px 1px 1px black;
+  }
+  .clave{
+      margin-bottom: 12px;
+  }
+
+  input[type=email]{border: 1px solid #45BB3A;
+    border-radius: 8px;}
+
+  input[type=cedula]{border: 1px solid #45BB3A;
+        border-radius: 8px;}
+  input[type=password]{border: 1px solid #45BB3A;
+            border-radius: 8px;}
+
+           
+
+  .check{
+      float: left;
+      margin-left: -25px;
+      margin-bottom: 12px;
+  }          
+  .checkmark{
+      font-size: 14px;
+      font-weight: 700;
+      margin-left: 10px;
+  }
+
+  .container .boton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 0;
+  }
+  a{
+    text-decoration: none;
+    color: beige;
+  }
+   
+  .regis{
+    display: flex;
+  }
+
+  p a{
+    text-decoration: underline;
+    font-size: 13px;
+  margin-left: 10px;
+margin-top: 15px;}
+
+  .iniciar{
+    background-color: #45BB3A;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    /* text-decoration: none; */
+    display: inline-block;    
+    font-size: 18px;
+    /* margin-top: 40px; */
+    border-radius: 8px;
+    font-weight: 700;
+  }
+
+  .iniciar:hover{
+  box-shadow: 2px 2px 2px black;
+  
+  }
+
+  .iniciar a:hover{
+    color: white;
+    /* text-shadow: -1px 1px 1px black; si lo aplico aca no interactua con el boton */
+    /* borde en letras:
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black */
+  }
+
+  .regis a:hover{
+    color:#45BB3A
+  }
+
+  /* --------------------REGISTRO--------------------------- */
+
+  
+  .bodyregistro{
+    height: 100%;
+  }
+
+  .sign{
+    margin-top: 257px;
+  }
+
+  .form-regis{
+    text-align: center;
+    /* width: 100%; es necesario poner 100%? */
+    max-width: 860px;
+    margin: auto;
+    /* padding? */
+    background-color: rgba(34, 34, 34, 0.877);
+    border: 1px solid #45BB3A;
+    border-radius: 10px;
+  }
+
+  .formregistro{
+    padding: 25px;
+    padding-bottom: 5px;
+    color: beige;
+    margin-bottom: 15px;
+      font-weight: 700;
+  }
+
+  .formregistro h1, p{text-shadow: -1px 1px 2px black;}
+.datos{
+    box-sizing: border-box;
+  }
+  
+  hr{
+    color: #212529;
+  }
+
+  .datos{
+    text-align: start;
+  }
+
+  .REG {
+    width: 100%;
+  padding: 7px;
+  margin: 5px 0 5px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  }
+
+  input[type=text]{border: 1px solid #45BB3A;
+    border-radius: 8px;}
+
+    input:hover{
+      box-shadow: 0px 1px 1px #45BB3A;
+    }
+
+  .terminos{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .finalizado{
+    display: flex;
+    justify-content: space-between;
+  }
+  .notienes{
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+.registerbtn{
+    background-color: #45BB3A;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    /* text-decoration: none; */
+    display: inline-block;    
+    font-size: 18px;
+    font-weight: 700;
+    /* margin-top: 40px; */
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  .registerbtn:hover{
+      box-shadow: 2px 2px 2px black;
+    }
+  
+
+  footer a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: gray;
+    }
+
+    footer a:hover{
+      color: #45BB3A;
+    }
+
+    .terminos a:hover{
+      color: #45BB3A;
+    }
+
+.localidad{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+select{
+  width: 50%;
+  border: 1px solid #45BB3A;
+    border-radius: 5px;
+}
