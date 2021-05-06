@@ -1,13 +1,14 @@
 const User = "leo.arbelo22@gmail.com";
-const Pass = 210891;
+const Pass = "210891";
 
-function login(){ /* (event) */
-     //event.preventDefault();
+function login(event){ /* (event) */
+     event.preventDefault();
     console.info('funciono');
-const email = document.getElementById(email);
-const pass = document.getElementById(password);
+const email = document.getElementById("email").value;
+debugger
+const pas = document.getElementById("password").value;
 
-if(email === User && pass === Pass){
+if(email === User && pas === Pass){
     alert("Bienvenido!")                        //no funciona los alerts
 }else{
     alert('Usuario o Password incorrectos')
